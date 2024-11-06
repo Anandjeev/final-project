@@ -1,0 +1,16 @@
+.black-text{
+    color: black;
+}
+/* Add this to your CSS file or style definition */
+.btn.btn-outline-warning.my-3.mx-3 {
+    background-color: #ffc107; /* Set the desired background color */
+    color: #000; /* Set the desired text color */
+    border-color: #ffc107; /* Set the desired border color */
+}
+
+/* Override the hover effect to maintain the same styles */
+.btn.btn-outline-warning.my-3.mx-3:hover {
+    background-color: #ffc107 !important; /* !important ensures this rule takes precedence */
+    color: #000 !important;
+    border-color: #ffc107 !important;
+}

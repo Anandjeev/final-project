@@ -1,0 +1,21 @@
+.overlay {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 30px;
+}
+.overlay h1 {
+  color: #fff;
+}
+.overlay h1 span {
+  font-weight: lighter;
+}
+
+.services-img {
+  height: 300px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+p {
+  font-size: 18px;
+}/*# sourceMappingURL=about.css.map */

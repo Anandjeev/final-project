@@ -1,0 +1,84 @@
+.main-container {
+    height: 100vh;
+}
+
+.navbar {
+    background-color: #171717 !important;
+    box-shadow: 0.2em 0.2em 1em rgba(0, 0, 0, 0.3);
+    font-size: 18px;
+}
+.navbar-nav .nav-link {
+    padding: 20px 25px;  /* Adjust the padding as needed */
+  }
+  
+.navbar-brand {
+    font-size: 34px;  /* Adjust the font size as needed */
+  }
+
+  .navbar-nav .nav-link,
+  .btn-outline-info {
+      font-size: 20px;
+      transition: color 0.3s, font-size 0.3s; /* Add a transition for a smooth effect */
+  }
+  
+  .navbar-nav .nav-link:hover,
+  .btn-outline-info:hover {
+      color: #fff; /* Change to bright white or your desired color */
+      font-size: 24px; /* Increase the font size on hover */
+  }
+    
+main {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto;
+    background-color: rgb(19, 18, 18);
+    color: #fff;
+
+    a {
+        margin: 0 10px;
+        color: #fff;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    .navbar-nav .nav-link {
+      padding: 10px 15px;  /* Adjust the padding for smaller screens */
+    }
+  }
+  // YourComponent.scss
+
+// .user-circle {
+//     background-color: pink;
+//     color: white; // Assuming you want white text on the pink circle
+//     font-size: 18px; // Adjust the font size as needed
+//     padding: 10px; // Adjust padding as needed
+//     border-radius: 50%;
+//     cursor: pointer;
+    
+//   }
+.user-circle {
+    width: 35px;
+    height: 35px;
+    background-color: #F40D30;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.nav-item-with-margin {
+    margin-bottom: 10px; // Adjust the value as needed
+  }
+  
+  // Rest of your SCSS code...
+  
+  

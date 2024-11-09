@@ -29,7 +29,6 @@ Start the frontend development server:
 npm start
 View the app in the browser:
 Local: http://localhost:3000
-Network: http://192.168.167.159:3000
 To create a production build:
 npm run build
 Technologies Used
